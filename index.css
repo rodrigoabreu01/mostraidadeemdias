@@ -11,27 +11,46 @@ body{
 }
 .container{
     width: 50%;
+    background-color: blueviolet;
+    padding: 2%;
+    border-radius: 10px 0px 10px 0px;
+}
+.container .titulo{
+    text-align: center;
+    padding: 2%;
 }
 #formulario{
     display: flex;
     justify-content: center;
+    padding: 2%;
 }
 #formulario div{
     display: flex;
     flex-direction: column;
+    text-align: center;
+
+}
+#formulario div label{
+    color: white;
 }
 #formulario div input{
     width: 50px;
     height: 50px;
     text-align: center;
-    margin-right:  10px;
+    margin: 10px;
+    
 }
 .resultados{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2%;
+    color: white;
 }
 .resultados div{
     display: flex;
+}
+.botao{
+    display: none;
 }
